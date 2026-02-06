@@ -2,7 +2,7 @@
 
 A modern, web-based unit conversion tool built with **HTML**, **CSS**, and **JavaScript**. This project allows users to convert between various metric and imperial units for Length, Weight, and Temperature.
 
-###[View Live](https://berkeikikarakayali.github.io/unit-converter/)
+###View Live: [https://berkeikikarakayali.github.io/unit-converter/](https://berkeikikarakayali.github.io/unit-converter/)
 
 <p align="center">
   <img src="screenshots/length-preview.png" alt="Main preview of the converter." width="350">
