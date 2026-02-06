@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,25 +12,29 @@
 </head>
 <body>
     <nav class="navbar">
-
+        <div class="lang-switch">
+            <span id="btn-en" class="lang-btn active-lang">EN</span>
+            <span class="divider">|</span>
+            <span id="btn-tr" class="lang-btn">TR</span>
+        </div>
     </nav>
     <main class="container">
         <div class="tabs-wrapper">
-            <button class="tab-btn active" data-category="length">Length</button>
-            <button class="tab-btn" data-category="weight">Weight</button>
-            <button class="tab-btn" data-category="temperature">Temperature</button>
+            <button class="tab-btn active" data-category="length" id="tab-length">Length</button>
+            <button class="tab-btn" data-category="weight" id="tab-weight">Weight</button>
+            <button class="tab-btn" data-category="temperature" id="tab-temp">Temperature</button>
         </div>
 
         <div class="converter-body">
-            <h1>Unit Conversion</h1>
-            <h3>Enter Value: </h3>
+            <h1 id="ui-title">Unit Conversion</h1>
+            <h3 id="ui-subtitle">Enter Value: </h3>
             <input id="amountInput" placeholder="0">
             <button id="convert-btn">Convert</button>
         </div>
 
         <section class="selection">
             <div class="select-area">
-                <label for="fromUnit">From:</label>
+                <label for="fromUnit" id="ui-from">From:</label>
                     <select id="fromUnit">
                         <option value="meter">Meter</option>
                         <option value="kilometer">Kilometer</option>
@@ -38,7 +42,7 @@
             </div>
             <div class="exchange-icon"> ⇄ </div>
             <div class="select-area"> 
-                <label>To:</label>
+                <label for="toUnit" id="ui-to">To:</label>
                     <select id="toUnit">
                         <option value="meter">Meter</option>
                         <option value="kilometer">Kilometer</option>
