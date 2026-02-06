@@ -1,6 +1,8 @@
 # Unit Converter
 
-*A modern, web-based unit conversion tool built with **HTML**, **CSS**, and **JavaScript**. This project allows users to convert between various metric and imperial units for Length, Weight, and Temperature.
+A modern, web-based unit conversion tool built with **HTML**, **CSS**, and **JavaScript**. This project allows users to convert between various metric and imperial units for Length, Weight, and Temperature.
+
+###[View Live](https://berkeikikarakayali.github.io/unit-converter/)
 
 <p align="center">
   <img src="screenshots/length-preview.png" alt="Main preview of the converter." width="350">
@@ -14,15 +16,17 @@
 * Easily swap "From" and "To" units with a single click.
 * Clean and modern UI.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Weight Conversion
-Shows a detailed list of all corresponding weight units.
-![Weight Conversion](screenshots/weight-preview.png)
+<p align="center">
+  <img src="screenshots/weight-preview.png" alt="Weight conversion example." width="350">
+</p>
 
 ### Temperature & UI
-Clean interface with "Arbutus" font typography.
-![Temperature UI](screenshots/temperature-preview.png)
+<p align="center">
+  <img src="screenshots/temperature-preview.png" alt="Temperature conversion example." width="350">
+</p>
 
 ## Technologies
 **HTML5** - **CSS3** - **JavaScript**
