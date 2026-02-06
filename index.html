@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Converter</title>
+</head>
+<body>
+    <nav class="navbar">
+
+    </nav>
+    <main class="container">
+        <div class="tabs-wrapper">
+            <button class="tab-btn active" data-category="length">Length</button>
+            <button class="tab-btn" data-category="weight">Weight</button>
+            <button class="tab-btn" data-category="temperature">Temperature</button>
+        </div>
+
+        <div class="converter-body">
+            <h1>Unit Conversion</h1>
+            <h3>Enter Value: </h3>
+            <input id="amountInput" placeholder="0">
+            <button id="convert-btn">Convert</button>
+        </div>
+
+        <section class="selection">
+            <div class="select-area">
+                <label for="fromUnit">From:</label>
+                    <select id="fromUnit">
+                        <option value="meter">Meter</option>
+                        <option value="kilometer">Kilometer</option>
+                    </select>    
+            </div>
+            <div class="exchange-icon"> ⇄ </div>
+            <div class="select-area"> 
+                <label>To:</label>
+                    <select id="toUnit">
+                        <option value="meter">Meter</option>
+                        <option value="kilometer">Kilometer</option>
+                    </select>
+
+            </div>
+        </section>    
+        <div class="result-section">
+            <p class="result-text" id="result">Result will be shown here!</p>
+            <p class="result-text" id="otherResults">Other results will be shown here!</p>
+            <p class="result-text" id="otherResults">Other results will be shown here!</p>
+            <p class="result-text" id="otherResults">Other results will be shown here!</p>
+        </div>
+    </main>
+        
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
